@@ -1,7 +1,7 @@
 # Site settings
-title: slim
-baseurl: "/slim"
-url: "http://syaning.com"
+title: yumeinsilico
+baseurl: "/yumeinsilico"
+url: "http://yumeinsilico.github.io"
 
 # Build settings
 kramdown:

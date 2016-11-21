@@ -5,8 +5,8 @@
 
 
 // Our variables
-$base-font-family: "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, FangSong, STFangsong, sans-serif;
-$code-font-family: "Courier New", Consolas, monopace, FangSong, STFangsong;
+$base-font-family: "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, STSong, sans-serif;
+$code-font-family: "Courier New", Consolas, monopace, FangSong, STSong;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  0.875rem;
@@ -14,11 +14,21 @@ $base-line-height: 1.5;
 
 $spacing-unit:     2rem;
 
-$text-color:       #111;
-$background-color: #fff;
-$brand-color:      #2a7ae2;
+//$text-color:       #111;
+//$background-color: #fff;
+//$brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+//$grey-color:       #828282;
+//$grey-color-light: lighten($grey-color, 40%);
+//$grey-color-dark:  darken($grey-color, 25%);
+
+$text-color:       #fff;
+$text-color-dark:  darken($text-color, 20%);
+$background-color: darken(#1a1a1a, 4%);
+$background-color-light: lighten($background-color, 6%);
+$brand-color:      #9966ff;
+
+$grey-color:       #1a1a1a;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
